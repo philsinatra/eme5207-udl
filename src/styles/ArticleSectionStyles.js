@@ -13,12 +13,19 @@ const ArticleSectionStyles = styled.section`
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-weight: 700;
     letter-spacing: -1px;
+    line-height: 1;
     margin-bottom: 0;
     position: relative;
     text-align: center;
+  }
+
+  @media screen and (min-width: 680px) {
+    h2 {
+      font-size: 3rem;
+    }
   }
 
   h3 {

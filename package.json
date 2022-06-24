@@ -1,0 +1,61 @@
+{
+  "name": "eme5207-udl",
+  "private": false,
+  "description": "EME5207 UDL Repository",
+  "version": "0.1.0",
+  "license": "UNLICENCED",
+  "author": {
+    "email": "code@philsinatra.com",
+    "name": "Phil Sinatra",
+    "url": "http://philsinatra.com"
+  },
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=\"-r esm\" gatsby build",
+    "develop": "cross-env NODE_OPTIONS=\"-r esm\" gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.11.1",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.24.91",
+    "gatsby-image": "^2.4.17",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-styled-components": "^3.3.10",
+    "normalize.css": "^8.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.2.0",
+    "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "esm": "^3.2.25",
+    "prettier": "2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:philsinatra/eme5207-udl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/philsinatra/eme5207-udl/issues"
+  },
+  "importSort": {
+    ".js, .jsx": {
+      "style": "module-compact"
+    }
+  }
+}

@@ -67,7 +67,7 @@ const MastStyles = styled.section`
 
 const Mast = () => (
   <MastStyles>
-    <a
+    {/* <a
       href="https://github.com/philsinatra/eme5207-udl"
       className="github-corner"
       aria-label="View source on GitHub"
@@ -103,7 +103,7 @@ const Mast = () => (
           className="octo-body"
         ></path>
       </svg>
-    </a>
+    </a> */}
     <div>
       <h1>Technology and UDL</h1>
     </div>

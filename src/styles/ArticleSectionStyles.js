@@ -101,10 +101,18 @@ const ArticleSectionStyles = styled.section`
 
   .fadeBgTransparent {
     background: linear-gradient(0deg, transparent 0%, var(--color-white) 100%);
+
+    p {
+      margin: 1.25rem 0 0;
+    }
   }
 
   .fadeBgTransparentReverse {
     background: linear-gradient(0deg, var(--color-white) 0%, transparent 100%);
+
+    p {
+      margin: 1.25rem 0 0;
+    }
   }
 `
 
